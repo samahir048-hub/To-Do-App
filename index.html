@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    <div class="app-wrapper">
+        <div class="todo-container">
+            <header>
+                <h2 id="icon">📋</h2>
+                <h1> My Tasks</h1>
+                <p class="subtitle">Stay organized, stay productive</p>
+            </header>
+
+            <div class="input-area">
+                <input type="text" id="todoInput" placeholder="What do you need to do?" autofocus>
+                <button id="addBtn">+ Add</button>
+            </div>
+
+            <div class="filter-area">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Done</button>
+            </div>
+
+            <ul id="todoList"></ul>
+
+            <div class="footer-stats">
+                <span id="counter">0 tasks</span>
+                <button id="clearAllBtn">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
